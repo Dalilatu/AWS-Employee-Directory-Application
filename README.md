@@ -12,7 +12,8 @@
 
 <p style="text-align: justify;">
   The project demonstrates core AWS architecture concepts including object storage, NoSQL data storage, IAM permissions, and application-to
-  service integration.<b/>
+  service integration.
+  </b>
 Lab environment: This project was completed in a guided AWS lab environment with pre-provisioned networking and an EC2-hosted application.
 <p/>
 
