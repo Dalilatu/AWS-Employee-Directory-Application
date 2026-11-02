@@ -21,9 +21,7 @@
 ## Architecture
 
 <p align="center">
-  <img src="images/architecture.png"
-       alt="Cloud Security Architecture"
-       width="700">
+  <img width="2856" height="1806" alt="image" src="https://github.com/user-attachments/assets/edc20270-c075-4777-8ec7-bc6803a95cbc" />
 </p>
 
 ## Website Components
