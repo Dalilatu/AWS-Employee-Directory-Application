@@ -13,8 +13,27 @@
 <p style="text-align: justify;">
   The project demonstrates core AWS architecture concepts including object storage, NoSQL data storage, IAM permissions, and application-to
   service integration.
-  </b>
-Lab environment: This project was completed in a guided AWS lab environment with pre-provisioned networking and an EC2-hosted application.
+<p/>
+<p style="text-align: justify;">
+  Lab environment: This project was completed in a guided AWS lab environment with pre-provisioned networking and an EC2-hosted application.
 <p/>
 
 ## Architecture
+
+<p align="center">
+  <img src="images/architecture.png"
+       alt="Cloud Security Architecture"
+       width="700">
+</p>
+
+## Website Components
+
+| AWS Service | Role in the Website | Key Features |
+|---|---|---|
+| Amazon EC2 | Hosts the website's backend application and processes user requests. | Compute capacity, scalable instances, application hosting |
+| Amazon DynamoDB | Stores and retrieves application data, such as user profiles, sessions, and website records. | NoSQL database, low-latency access, automatic scaling |
+| Amazon S3 | Stores static website assets, including images, CSS, JavaScript, and uploaded files. | Object storage, high durability, scalable storage |
+
+## Website Demonstration
+
+
