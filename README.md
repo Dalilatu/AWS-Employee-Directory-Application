@@ -45,7 +45,8 @@ Our Website's architecture still need some adjustments to enable communication b
 ## Architecture
 
 <p align="center">
-  Website diagram (First Edition)
-  <img width="2856" height="1806" alt="image" src="https://github.com/user-attachments/assets/edc20270-c075-4777-8ec7-bc6803a95cbc" />
+  Website diagram  (Second Edition)
+  <img width="2856" height="1806" alt="image" src="https://github.com/user-attachments/assets/0628040b-ac5b-438f-9f8c-524e0bf39ef7" />
+
 </p>
 
