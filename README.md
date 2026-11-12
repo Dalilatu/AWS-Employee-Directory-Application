@@ -33,6 +33,19 @@
 | Amazon DynamoDB | Stores and retrieves application data, such as user profiles, sessions, and website records. | NoSQL database, low-latency access, automatic scaling |
 | Amazon S3 | Stores static website assets, including images, CSS, JavaScript, and uploaded files. | Object storage, high durability, scalable storage |
 
-## Website Demonstration
+## Further Network and Performance Modifications
 
+Our Website's architecture still need some adjustments to enable communication between the internet and the resources. Here's what to adjust: <br/>
+
+- An Internet Gateway is not enough to allow communication to flow in the resources, you need to direct the traffic to the right resources which is where Route Tables comes in place. We will configure our Route Table using Route 53 to allow communication between the internet and our Public Subnet so that employees can access the website.
+- To ensure that our severs aren't consuming excess capacity more than it needs to, we use Cloud Watch to monitor the behaviour of our resources.
+- We can also confiure Scalability to enable our resources to expand in case of high traffic.
+
+
+## Architecture
+
+<p align="center">
+  Website diagram (First Edition)
+  <img width="2856" height="1806" alt="image" src="https://github.com/user-attachments/assets/edc20270-c075-4777-8ec7-bc6803a95cbc" />
+</p>
 
